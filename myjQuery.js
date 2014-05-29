@@ -9,4 +9,10 @@ $(document).ready(function(){
   });
 });
 
+$(function() {
+  $("img.lazy").lazyload({
+    effect: "fadeIn"
+  });
+});
+
 // 'ul.mini_dropdown'
