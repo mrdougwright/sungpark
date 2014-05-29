@@ -5,7 +5,7 @@ h1, h2, h3, p, a, li {
 }  
 
 .container {
-  margin: 10% 1%;
+  margin: 8% 1%;
   display: inline-flex;
 }
 
@@ -38,6 +38,8 @@ nav
   width: 720px;
 }
 
+.education { margin-top: 0; }
+
 .copyright {
   font-size: 11px;
   text-align: center;
@@ -45,4 +47,10 @@ nav
 
 img.lazy {
   margin: auto 8px;
+}
+.pink {
+  color: #FF0099;
+}
+.font12 {
+  font-size: 12px;
 }
