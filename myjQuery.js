@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   $('li.dropdown').click(function(){
     var ul = $(this).next("ul");
@@ -10,10 +11,12 @@ $(document).ready(function(){
 
   $('.show_vid').click(function(){
     var elem = $(this);
-    var unhideElem = elem.find('hidden');
-    elem.addClass('hidden');
-    unhideElem.removeClass('hidden');
+    var video = elem.find('.video');
+
+    elem.children('a').addClass('hidden');
+    video.children().removeClass('hidden');
   });
+  
 });
 
 $(function() {
