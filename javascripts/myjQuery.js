@@ -9,13 +9,8 @@ $(document).ready(function(){
       }
   });
 
-  $('.show_vid').click(function(){
-    var elem = $(this);
-    var video = elem.find('.video');
-
-    elem.children('a').addClass('hidden');
-    video.children().removeClass('hidden');
-  });
+  var foo = $('#videos');
+  foo.poptrox();
   
 });
 

@@ -5,8 +5,9 @@
 <link rel="icon" type="image/ico" href="http://www.makeupbysung.com/images/sungpark_favicon.png"/>
   <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="myjQuery.js"></script>
-  <script type="text/javascript" src="lazyload.js"></script>
+  <script type="text/javascript" src="javascripts/myjQuery.js"></script>
+  <script type="text/javascript" src="javascripts/lazyload.js"></script>
+  <script type="text/javascript" src="javascripts/poptrox.js"></script>
    <title>Sung Park Makeup Artist | Reel</title>
 </head>
 <body class="homepage">
@@ -30,15 +31,9 @@
         <li><a href='contact.html'>CONTACT</a></li>
       </ul>
     </nav> 
-    <div class='content'>
-      <div class="show_vid">
-        <a href="#"><img src="http://makeupbysung.com/images/toyota-commercial1.png" width="640" height="406"></a>
-        <div class="video">
-          <iframe class="hidden" width="640" height="360" src="http://www.youtube.com/embed/_381tftne3Q" frameborder="0" autoplay="true" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <iframe width="640" height="360" src="http://www.youtube.com/embed/vFcBWrkDFZo" frameborder="0" allowfullscreen></iframe>
+    <div id="videos">
+      <a href="http://youtu.be/_381tftne3Q" data-poptrox="youtube,853x480"><img src="http://makeupbysung.com/images/toyota-commercial1.png" width="200" height="127" /></a>
+      <a href="http://youtu.be/vFcBWrkDFZo" data-poptrox="youtube,853x480"><img src="http://makeupbysung.com/images/toyota-commercial2.png" width="200" height="127" /></a>
     </div>
   </div>
 </body>
