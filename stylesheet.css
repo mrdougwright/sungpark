@@ -27,9 +27,9 @@ nav
     margin-left: 0;
     padding-left: 0;
   }
-
   li a {
     line-height: 20px;
+    font-size: 12px;
   }
   li a:hover {
     color: #FF9999;
