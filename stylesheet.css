@@ -5,10 +5,10 @@ h1, h2, h3, p, a, li {
 }  
 
 .container {
-  margin: 10% 5%;
+  margin: 10% 1%;
   display: inline-flex;
-  position: fixed;
 }
+
 nav { 
   display: inline-block;
   vertical-align: middle;
@@ -22,27 +22,27 @@ nav
   .mini_dropdown { display: none }
   h1 { font-size: 30px; }
   ul {
+    font-size: 14px;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
   }
   li a {
     line-height: 20px;
-    letter-spacing: 1px;
   }
   li a:hover {
     color: #FF9999;
   }
 
-.subhead
-  img { width: 145px; }
-  span { font-size: 14px; }
-
-.image-section {
-  vertical-align: middle;
-  display: inline-block;
-}
-
 .bio.content {
   width: 720px;
+}
+
+.copyright {
+  font-size: 11px;
+  text-align: center;
+}
+
+img.lazy {
+  margin: auto 8px;
 }
