@@ -2,7 +2,8 @@ h1, h2, h3, p, a, li {
   font-family: Helvetica Neue, Helvetica, Arial;
   color: #999999;
   text-decoration: none;
-}  
+}
+li, p, span { font-size: 14px; }
 
 .container {
   margin: 8% 1%;
@@ -21,12 +22,12 @@ nav
   }
   .mini_dropdown { display: none }
   h1 { font-size: 30px; }
-  ul {
-    font-size: 14px;
+  ul {  
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
   }
+
   li a {
     line-height: 20px;
   }
