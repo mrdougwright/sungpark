@@ -3,7 +3,7 @@ h1, h2, h3, p, a, li {
   color: #999999;
   text-decoration: none;
 }
-li, p, span { font-size: 14px; }
+li, p, span { font-size: 12px; }
 
 .container {
   margin: 8% 1%;
@@ -29,7 +29,7 @@ nav
   }
   li a {
     line-height: 20px;
-    font-size: 12px;
+
   }
   li a:hover {
     color: #FF9999;
