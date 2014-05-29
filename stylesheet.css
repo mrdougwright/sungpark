@@ -51,6 +51,5 @@ img.lazy {
 .pink {
   color: #FF0099;
 }
-.font12 {
-  font-size: 12px;
-}
+.hidden {display: none;}
+.show {display: block;}

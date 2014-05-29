@@ -7,6 +7,13 @@ $(document).ready(function(){
         ul.slideUp();
       }
   });
+
+  $('.show_vid').click(function(){
+    var elem = $(this);
+    var unhideElem = elem.find('hidden');
+    elem.addClass('hidden');
+    unhideElem.removeClass('hidden');
+  });
 });
 
 $(function() {
@@ -14,5 +21,3 @@ $(function() {
     effect: "fadeIn"
   });
 });
-
-// 'ul.mini_dropdown'
