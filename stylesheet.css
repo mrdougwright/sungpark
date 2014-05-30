@@ -49,6 +49,10 @@ nav
 img.lazy {
   margin: auto 8px;
 }
+.index-image {
+  display: inline-block;
+  text-align: center;
+}
 .pink {
   color: #FF0099;
 }
