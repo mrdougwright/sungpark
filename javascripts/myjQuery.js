@@ -19,3 +19,8 @@ $(function() {
     effect: "fadeIn"
   });
 });
+
+$("img.lazy").each(function() {
+  $(this).attr("data-original",$(this).attr("src"));
+  $(this).removeAttr("src");
+});
